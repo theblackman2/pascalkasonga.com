@@ -31,7 +31,7 @@ export default function Footer() {
               alt="Logo"
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum cum ipsa tempora facere eius sit excepturi, quam doloremque? Expedita quo praesentium in aliquam qui eius hic architecto ipsa cum?
+              Driven by a passion for clean software and compelling narratives. I transform complex ideas into functional code and impactful visuals. From designing elegant user interfaces to engineering robust backend systems, my focus is on delivering high-quality, authentic digital solutions that leave a lasting impression.
             </p>
           </div>
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-3">
