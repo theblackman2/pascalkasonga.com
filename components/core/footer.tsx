@@ -29,6 +29,8 @@ export default function Footer() {
               src={logo}
               className="w-32 h-auto"
               alt="Logo"
+              width={100}
+              height={40}
             />
             <p>
               Driven by a passion for clean software and compelling narratives. I transform complex ideas into functional code and impactful visuals. From designing elegant user interfaces to engineering robust backend systems, my focus is on delivering high-quality, authentic digital solutions that leave a lasting impression.

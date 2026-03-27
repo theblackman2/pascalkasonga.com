@@ -163,6 +163,7 @@ export default function Home() {
               alt="Pascal Kasonga"
               width={400}
               height={800}
+              loading="eager"
             />
           </motion.div>
         </motion.div>
