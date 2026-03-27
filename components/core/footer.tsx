@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black-bg rounded-t-xl text-white">
+    <footer id="contact" className="w-full bg-black-bg rounded-t-xl text-white">
       <div className="w-full container mx-auto p-5 flex flex-col gap-5">
         <div className="w-full flex flex-col gap-5 md:flex-row items-start md:items-center justify-between">
           <h3 className="font-bold text-2xl md:text-3xl">
