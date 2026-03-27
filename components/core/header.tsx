@@ -8,13 +8,11 @@ import { useEffect, useState } from "react";
 
 const NAV_LEFT = [
   { label: "Home", id: "home" },
-  { label: "About", id: "about" },
   { label: "Service", id: "service" },
 ];
 
 const NAV_RIGHT = [
-  { label: "Resume", id: "resume" },
-  { label: "Project", id: "project" },
+  { label: "Work Experience", id: "experience" },
   { label: "Contact", id: "contact" },
 ];
 
@@ -55,21 +53,19 @@ export default function Header() {
   }, []);
 
   const renderLink = (item: { label: string; id: string }) => {
-    const isActive = active === item.id;
-
     return (
       <Link
         key={item.id}
         href={`#${item.id}`}
         className="relative flex items-center justify-center px-5 py-2 text-sm font-semibold"
       >
-        {isActive && (
+        {/* {isActive && (
           <motion.div
             layoutId="active-pill"
             className="absolute inset-0 bg-primary rounded-full"
             transition={{ type: "spring", stiffness: 300, damping: 25 }}
           />
-        )}
+        )} */}
 
         <span className="relative z-10">{item.label}</span>
       </Link>
@@ -91,7 +87,7 @@ export default function Header() {
             <div className="w-full grid grid-cols-3 items-center bg-black-bg text-white p-2 rounded-full">
 
               {/* Left nav */}
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {NAV_LEFT.map(renderLink)}
               </div>
 
@@ -101,7 +97,7 @@ export default function Header() {
               </div>
 
               {/* Right nav */}
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {NAV_RIGHT.map(renderLink)}
               </div>
             </div>

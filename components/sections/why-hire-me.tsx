@@ -101,10 +101,23 @@ export default function WhyHireMe() {
                 transition={{ type: "spring", stiffness: 120 }}
                 className="text-xl font-semibold md:text-2xl"
               >
-                40+
+                80+
               </motion.span>
               <span className="text-sm text-gray-500">
                 Completed projects
+              </span>
+            </div>
+            <div className="flex flex-col gap-1">
+              <motion.span
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                transition={{ type: "spring", stiffness: 120 }}
+                className="text-xl font-semibold md:text-2xl"
+              >
+                10+
+              </motion.span>
+              <span className="text-sm text-gray-500">
+                Clients
               </span>
             </div>
           </motion.div>
