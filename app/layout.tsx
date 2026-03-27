@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pascal Kasonga - Software Engineer",
-  description: "Pascal Kasonga est un ingénieur logiciel spécialisé dans le développement web, passionné par la création d'applications performantes et évolutives. Maîtrisant JavaScript, React, Flutter et Node.js, il a fait ses preuves dans la réalisation de solutions logicielles de haute qualité. Soucieux de se former en continu et de rester à la pointe des dernières tendances du secteur, il propose des solutions innovantes à ses clients.",
+  description: "Pascal Kasonga is a software engineer specializing in web development, passionate about creating high-performance and scalable applications. Proficient in JavaScript, React, Flutter, and Node.js, he has a proven track record in delivering high-quality software solutions. Committed to continuous learning and staying abreast of the latest industry trends, he offers innovative solutions to his clients.",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="fr"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
